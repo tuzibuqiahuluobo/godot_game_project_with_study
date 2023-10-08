@@ -1,0 +1,572 @@
+[gd_scene load_steps=103 format=3 uid="uid://ctbm88eua4whx"]
+
+[ext_resource type="Texture2D" uid="uid://tanun2qyki4" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_1.png" id="1_vh6st"]
+[ext_resource type="Texture2D" uid="uid://dig4xvttdtl0a" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_2.png" id="2_xi1l1"]
+[ext_resource type="Texture2D" uid="uid://co2rm25qqtfky" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_3.png" id="3_nqqat"]
+[ext_resource type="Texture2D" uid="uid://da7j0jl24oncs" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_4.png" id="4_epc06"]
+[ext_resource type="Texture2D" uid="uid://8cp1bey5gvgm" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_5.png" id="5_msu1d"]
+[ext_resource type="Texture2D" uid="uid://c02w5qi8gecvg" path="res://美术资源/Adventurer/近战战士/png/fire_knight/受击/take_hit_6.png" id="6_dopt3"]
+[ext_resource type="Texture2D" uid="uid://b2jhxq4vcfvx1" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_1.png" id="7_ja0g4"]
+[ext_resource type="Texture2D" uid="uid://i1d1u5qtj6nj" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_2.png" id="8_kc2tm"]
+[ext_resource type="Texture2D" uid="uid://dabqa4klfngn8" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_3.png" id="9_525it"]
+[ext_resource type="Texture2D" uid="uid://bve2u3limqd77" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_4.png" id="10_mqkhy"]
+[ext_resource type="Texture2D" uid="uid://he8uasol0aql" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_5.png" id="11_03hmb"]
+[ext_resource type="Texture2D" uid="uid://bt304klhuig1i" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_6.png" id="12_ro1d2"]
+[ext_resource type="Texture2D" uid="uid://f5v365nr6ech" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_7.png" id="13_r3dbb"]
+[ext_resource type="Texture2D" uid="uid://c1wdwrsfk0v3x" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_8.png" id="14_vbrli"]
+[ext_resource type="Texture2D" uid="uid://de3sdqqicelyo" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_9.png" id="15_lews0"]
+[ext_resource type="Texture2D" uid="uid://cy0i4bqplxi2w" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_10.png" id="16_w0f43"]
+[ext_resource type="Texture2D" uid="uid://5kdjysv0uqn6" path="res://美术资源/Adventurer/近战战士/png/fire_knight/05_1_atk/1_atk_11.png" id="17_biosh"]
+[ext_resource type="Texture2D" uid="uid://bj0yh80iwcj0j" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_1.png" id="18_odivq"]
+[ext_resource type="Texture2D" uid="uid://dgu5q03u843vg" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_2.png" id="19_5kl64"]
+[ext_resource type="Texture2D" uid="uid://mf4qt4vcctww" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_3.png" id="20_jmxma"]
+[ext_resource type="Texture2D" uid="uid://c2uaaopdieeej" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_4.png" id="21_hmiy0"]
+[ext_resource type="Texture2D" uid="uid://chm708dfj61se" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_5.png" id="22_bub3h"]
+[ext_resource type="Texture2D" uid="uid://dlgaqgp14aquf" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_6.png" id="23_p0eyq"]
+[ext_resource type="Texture2D" uid="uid://jam5psmk760r" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_7.png" id="24_gho8a"]
+[ext_resource type="Texture2D" uid="uid://byfjjuyiyfyxp" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_8.png" id="25_j7ii0"]
+[ext_resource type="Texture2D" uid="uid://bupgwsd33o7xg" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_9.png" id="26_x01rg"]
+[ext_resource type="Texture2D" uid="uid://cucjtqoqbrfbm" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_10.png" id="27_vvimh"]
+[ext_resource type="Texture2D" uid="uid://ctylj8e37ow6x" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_11.png" id="28_vvjxw"]
+[ext_resource type="Texture2D" uid="uid://cx5vscg3wpvc2" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_12.png" id="29_jyfdi"]
+[ext_resource type="Texture2D" uid="uid://bjt5mjk1prv6v" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_13.png" id="30_asyhd"]
+[ext_resource type="Texture2D" uid="uid://ct2f8a6jgstwk" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_14.png" id="31_hgdn1"]
+[ext_resource type="Texture2D" uid="uid://bw1bqicvh5w2v" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_15.png" id="32_b375f"]
+[ext_resource type="Texture2D" uid="uid://wph1kvmty7y8" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_16.png" id="33_sxtj3"]
+[ext_resource type="Texture2D" uid="uid://ckl7x8jpo5rd8" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_17.png" id="34_snfe8"]
+[ext_resource type="Texture2D" uid="uid://kdwj4fxbghtx" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_18.png" id="35_jtk22"]
+[ext_resource type="Texture2D" uid="uid://bu7v54bpub35h" path="res://美术资源/Adventurer/近战战士/png/fire_knight/06_2_atk/2_atk_19.png" id="36_0msdy"]
+[ext_resource type="Texture2D" uid="uid://ca8qvwsr54668" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_1.png" id="37_5tn4n"]
+[ext_resource type="Texture2D" uid="uid://ckely6gfyyrww" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_2.png" id="38_cdc43"]
+[ext_resource type="Texture2D" uid="uid://djlycvuhsly5l" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_3.png" id="39_2jt07"]
+[ext_resource type="Texture2D" uid="uid://davl6xmh3fp7g" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_4.png" id="40_vn0e8"]
+[ext_resource type="Texture2D" uid="uid://40bw6pfcdyk7" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_5.png" id="41_2hpww"]
+[ext_resource type="Texture2D" uid="uid://od3vo3asck1b" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_6.png" id="42_wntgc"]
+[ext_resource type="Texture2D" uid="uid://ore3s40awedo" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_7.png" id="43_0v78t"]
+[ext_resource type="Texture2D" uid="uid://soyrbxyem4yi" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_8.png" id="44_bv3ap"]
+[ext_resource type="Texture2D" uid="uid://by4bwn33dnb5h" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_9.png" id="45_omqf3"]
+[ext_resource type="Texture2D" uid="uid://c0ovrgfu7kejr" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_10.png" id="46_ij1co"]
+[ext_resource type="Texture2D" uid="uid://cfw6c43jpvyil" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_11.png" id="47_li3oa"]
+[ext_resource type="Texture2D" uid="uid://d3pmx8g4872wq" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_12.png" id="48_7db2b"]
+[ext_resource type="Texture2D" uid="uid://ebrir17tbbkw" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_13.png" id="49_wmt31"]
+[ext_resource type="Texture2D" uid="uid://bpypm5lb2h6a3" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_14.png" id="50_oc7pb"]
+[ext_resource type="Texture2D" uid="uid://dckf1f2q260hy" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_15.png" id="51_hv0nb"]
+[ext_resource type="Texture2D" uid="uid://cl6mbwn2agnoc" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_16.png" id="52_v0fxl"]
+[ext_resource type="Texture2D" uid="uid://c5l0a4lumnifk" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_17.png" id="53_r7nny"]
+[ext_resource type="Texture2D" uid="uid://8mb3xl8p3cp2" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_18.png" id="54_0d5fs"]
+[ext_resource type="Texture2D" uid="uid://b6rbmjahtphje" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_19.png" id="55_65yav"]
+[ext_resource type="Texture2D" uid="uid://bh8jnmtv0ocgf" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_20.png" id="56_7srm4"]
+[ext_resource type="Texture2D" uid="uid://d33warhapdbtn" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_21.png" id="57_lqrbf"]
+[ext_resource type="Texture2D" uid="uid://bma4nmac02rkx" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_22.png" id="58_kwixm"]
+[ext_resource type="Texture2D" uid="uid://b8lqhgd1fm6wk" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_23.png" id="59_2cqim"]
+[ext_resource type="Texture2D" uid="uid://ucuv5jt6snva" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_24.png" id="60_3cjp7"]
+[ext_resource type="Texture2D" uid="uid://bh7lr5n45vbxi" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_25.png" id="61_jh78l"]
+[ext_resource type="Texture2D" uid="uid://dypjo8c3w6qxb" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_26.png" id="62_5pd1s"]
+[ext_resource type="Texture2D" uid="uid://kay8bgme8csm" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_27.png" id="63_67j5b"]
+[ext_resource type="Texture2D" uid="uid://uhevy04boe6s" path="res://美术资源/Adventurer/近战战士/png/fire_knight/07_3_atk/3_atk_28.png" id="64_48orl"]
+[ext_resource type="Texture2D" uid="uid://c5vacp75i1b6r" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_1.png" id="65_tuyut"]
+[ext_resource type="Texture2D" uid="uid://bax6eh4nr4wfd" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_2.png" id="66_iomhm"]
+[ext_resource type="Texture2D" uid="uid://cmwxkmtth8gbv" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_3.png" id="67_vu2b6"]
+[ext_resource type="Texture2D" uid="uid://cx6eilni1b52e" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_4.png" id="68_o2tm2"]
+[ext_resource type="Texture2D" uid="uid://dtr32h8kxw31l" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_5.png" id="69_tcrwa"]
+[ext_resource type="Texture2D" uid="uid://c4r0l6tm0fk55" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_6.png" id="70_8v845"]
+[ext_resource type="Texture2D" uid="uid://c7c6k1j2hjmvg" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_7.png" id="71_65vte"]
+[ext_resource type="Texture2D" uid="uid://dhqxtadd4isnw" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_8.png" id="72_3reov"]
+[ext_resource type="Texture2D" uid="uid://clgbt88uwtubk" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_9.png" id="73_tp6s3"]
+[ext_resource type="Texture2D" uid="uid://8ic1osg3evgc" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_10.png" id="74_0uxkt"]
+[ext_resource type="Texture2D" uid="uid://c74xwitwipyjp" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_11.png" id="75_mk6rr"]
+[ext_resource type="Texture2D" uid="uid://bn6rik8hhgs5x" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_12.png" id="76_61hum"]
+[ext_resource type="Texture2D" uid="uid://bek2txwigk6ge" path="res://美术资源/Adventurer/近战战士/png/fire_knight/死亡/death_13.png" id="77_m6d6l"]
+[ext_resource type="Texture2D" uid="uid://bj0shbvwn8lf6" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_1.png" id="78_xajeb"]
+[ext_resource type="Texture2D" uid="uid://bw5myd3sh3mxo" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_2.png" id="79_eckvx"]
+[ext_resource type="Texture2D" uid="uid://djkr3psoeo17g" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_3.png" id="80_qjr10"]
+[ext_resource type="Texture2D" uid="uid://d2rce2aqxavw0" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_4.png" id="81_stwby"]
+[ext_resource type="Texture2D" uid="uid://xpmourqy3os8" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_5.png" id="82_7gk53"]
+[ext_resource type="Texture2D" uid="uid://ducc5w67n1qgy" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_6.png" id="83_up5bu"]
+[ext_resource type="Texture2D" uid="uid://ciqcjeshqmnau" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_7.png" id="84_owwfd"]
+[ext_resource type="Texture2D" uid="uid://df3uy2ovh0l6i" path="res://美术资源/Adventurer/近战战士/png/fire_knight/移动/run_8.png" id="85_y0voq"]
+[ext_resource type="Texture2D" uid="uid://2pkxhfj7wnr5" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_1.png" id="86_lap2b"]
+[ext_resource type="Texture2D" uid="uid://nss6a5xjksbh" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_2.png" id="87_bmm0e"]
+[ext_resource type="Texture2D" uid="uid://bg3o3g0rprbfe" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_3.png" id="88_2xkaf"]
+[ext_resource type="Texture2D" uid="uid://dwiomfvlkc8ua" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_4.png" id="89_0kjr5"]
+[ext_resource type="Texture2D" uid="uid://cmfd87su5oqel" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_5.png" id="90_rko7i"]
+[ext_resource type="Texture2D" uid="uid://dsyc8hcwb3beg" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_6.png" id="91_cgmjs"]
+[ext_resource type="Texture2D" uid="uid://cpvmtbb8av4rf" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_7.png" id="92_o6hyw"]
+[ext_resource type="Texture2D" uid="uid://q6xonqk54i8b" path="res://美术资源/Adventurer/近战战士/png/fire_knight/闲置/idle_8.png" id="93_43nhe"]
+[ext_resource type="Script" path="res://场景/角色类场景/近战战士/状态机/状态管理器.gd" id="94_35k7y"]
+[ext_resource type="Script" path="res://场景/角色类场景/近战战士/状态机/行走状态.gd" id="95_0km88"]
+[ext_resource type="Script" path="res://场景/角色类场景/近战战士/状态机/攻击状态.gd" id="96_pr36h"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5n0r0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vh6st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_xi1l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nqqat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_epc06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_msu1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dopt3")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_ja0g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kc2tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_525it")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_mqkhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_03hmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ro1d2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_r3dbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vbrli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lews0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_w0f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_biosh")
+}],
+"loop": false,
+"name": &"攻击1",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_odivq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_5kl64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jmxma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hmiy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_bub3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_p0eyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_gho8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_j7ii0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_x01rg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vvimh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_vvjxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jyfdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_asyhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_hgdn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_b375f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_sxtj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_snfe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_jtk22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0msdy")
+}],
+"loop": false,
+"name": &"攻击2",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_5tn4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_cdc43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_2jt07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_vn0e8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_2hpww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_wntgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0v78t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_bv3ap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_omqf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ij1co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_li3oa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_7db2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_wmt31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_oc7pb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv0nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_v0fxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_r7nny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_0d5fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_65yav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_7srm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_lqrbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_kwixm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_2cqim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_3cjp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jh78l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_5pd1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_67j5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_48orl")
+}],
+"loop": false,
+"name": &"攻击3",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65_tuyut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_iomhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_vu2b6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_o2tm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_tcrwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_8v845")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_65vte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_3reov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_tp6s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_0uxkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_mk6rr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_61hum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_m6d6l")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("78_xajeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_eckvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_qjr10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_stwby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_7gk53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_up5bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_owwfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_y0voq")
+}],
+"loop": true,
+"name": &"移动",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("86_lap2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_bmm0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_2xkaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_0kjr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_rko7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_cgmjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_o6hyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_43nhe")
+}],
+"loop": true,
+"name": &"闲置",
+"speed": 9.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_st3r6"]
+size = Vector2(18, 44)
+
+[sub_resource type="Animation" id="Animation_olpkn"]
+resource_name = "走动"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"移动", 1.0, true],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_5qrsh"]
+resource_name = "攻击1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"攻击1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_43e4b"]
+resource_name = "攻击2"
+length = 2.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"攻击2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6, 1.4, 1.6, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}, {
+"args": [],
+"method": &"attack2_check"
+}, {
+"args": [],
+"method": &"attack2_check"
+}, {
+"args": [],
+"method": &"attack2_check"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hvqmm"]
+_data = {
+"攻击1": SubResource("Animation_5qrsh"),
+"攻击2": SubResource("Animation_43e4b"),
+"走动": SubResource("Animation_olpkn")
+}
+
+[node name="近战战士" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_5n0r0")
+animation = &"攻击1"
+autoplay = "闲置"
+frame = 6
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_st3r6")
+
+[node name="RightDownRayCast" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="LeftDownRayCast" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="AttackCheck" type="Node2D" parent="."]
+
+[node name="A1" type="Area2D" parent="AttackCheck"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A1"]
+polygon = PackedVector2Array(-17, -42, -3, -44, 9, -45, 26, -41, 39, -34, 47, -24, 51, -11, 49, 0, 42, 6, 28, 5, 24, 16, 47, 24, 62, 22, 69, 6, 68, -16, 58, -40, 45, -52, 30, -59, -1, -60, -26, -48, -29, -42)
+
+[node name="A2" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2"]
+polygon = PackedVector2Array(3, -31, -19, -30, -30, -28, -48, -23, -61, -12, -63, -7, -62, -2, -55, 8, -46, 15, -33, 19, -5, 23, 36, 22, 48, 18, 58, 13, 69, 10, 76, -4, 65, -22, 39, -32, 23, -32)
+
+[node name="A3" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A3"]
+polygon = PackedVector2Array(23, -26, 29, -22, 26, -10, 31, -1, 30, 12, 23, 22, 38, 18, 49, 15, 56, 17, 71, 17, 85, 22, 84, 10, 93, -5, 90, -14, 100, -18, 93, -21, 95, -28, 89, -29, 85, -38, 78, -46, 70, -44, 63, -48, 50, -47, 41, -39, 33, -42, 33, -27)
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("94_35k7y")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("95_0km88")
+
+[node name="Attack" type="Node" parent="FSM"]
+script = ExtResource("96_pr36h")
+
+[node name="Timer" type="Timer" parent="FSM/Attack"]
+wait_time = 0.25
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_hvqmm")
+}
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]

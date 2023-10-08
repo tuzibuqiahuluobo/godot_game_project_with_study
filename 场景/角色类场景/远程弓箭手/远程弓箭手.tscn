@@ -1,0 +1,381 @@
+[gd_scene load_steps=66 format=3 uid="uid://wefphmygclky"]
+
+[ext_resource type="Texture2D" uid="uid://d2aqqdv5ex31y" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_1.png" id="2_yeeva"]
+[ext_resource type="Texture2D" uid="uid://dy5yf07xvtuup" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_2.png" id="3_yowua"]
+[ext_resource type="Texture2D" uid="uid://c21v64wy15pxq" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_3.png" id="4_p71ga"]
+[ext_resource type="Texture2D" uid="uid://jmmkl4ss3arw" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_4.png" id="5_cx5mf"]
+[ext_resource type="Texture2D" uid="uid://diykqxiggyade" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_5.png" id="6_lj828"]
+[ext_resource type="Texture2D" uid="uid://c6qvu03o4ajgu" path="res://美术资源/Adventurer/弓箭手/animations/PNG/受击/take_hit_6.png" id="7_gx4kl"]
+[ext_resource type="Texture2D" uid="uid://cjy5cd601bfvf" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_1.png" id="8_wxi0j"]
+[ext_resource type="Texture2D" uid="uid://cqd8rkv3fmnjd" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_2.png" id="9_hbs4g"]
+[ext_resource type="Texture2D" uid="uid://b4ud8mh62j7ai" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_3.png" id="10_43xth"]
+[ext_resource type="Texture2D" uid="uid://xm41vdq5hb67" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_4.png" id="11_113c8"]
+[ext_resource type="Texture2D" uid="uid://cllp1fad4k6oi" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_5.png" id="12_vmj1f"]
+[ext_resource type="Texture2D" uid="uid://jxivphqvlucq" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_6.png" id="13_un346"]
+[ext_resource type="Texture2D" uid="uid://b76m66n8616pg" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_7.png" id="14_tjtwq"]
+[ext_resource type="Texture2D" uid="uid://cb4cb5vrhb8cm" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_8.png" id="15_t7ti0"]
+[ext_resource type="Texture2D" uid="uid://dgmpivnhg1ujb" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_9.png" id="16_t7p6f"]
+[ext_resource type="Texture2D" uid="uid://8lr8ihse1vcv" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_10.png" id="17_x4d2b"]
+[ext_resource type="Texture2D" uid="uid://cc6ip0gc017wk" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_11.png" id="18_cjvfx"]
+[ext_resource type="Texture2D" uid="uid://dvxvl0q1oyuvx" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_12.png" id="19_re3wr"]
+[ext_resource type="Texture2D" uid="uid://dmgc0mmrpt4t" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_13.png" id="20_lk2ms"]
+[ext_resource type="Texture2D" uid="uid://ctcl2t4sns2m6" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_14.png" id="21_ndc0d"]
+[ext_resource type="Texture2D" uid="uid://hj8yokdte7" path="res://美术资源/Adventurer/弓箭手/animations/PNG/2_atk/2_atk_15.png" id="22_ne8ek"]
+[ext_resource type="Texture2D" uid="uid://ble2tc21grvx8" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_1.png" id="23_s76tg"]
+[ext_resource type="Texture2D" uid="uid://bb7qiuuln7wav" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_2.png" id="24_0ntp7"]
+[ext_resource type="Texture2D" uid="uid://h3tighhtxlhy" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_3.png" id="25_i2iol"]
+[ext_resource type="Texture2D" uid="uid://cc33o5kpggvnw" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_4.png" id="26_it7e6"]
+[ext_resource type="Texture2D" uid="uid://dvlr57j6shwdm" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_5.png" id="27_22uvp"]
+[ext_resource type="Texture2D" uid="uid://dwsvqxtf7wkri" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_6.png" id="28_jp6t5"]
+[ext_resource type="Texture2D" uid="uid://qo6dy8kv7du" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_7.png" id="29_2wren"]
+[ext_resource type="Texture2D" uid="uid://ic10lsxrmqw5" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_8.png" id="30_dfu4t"]
+[ext_resource type="Texture2D" uid="uid://d3o1i5mu28wib" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_9.png" id="31_syu7q"]
+[ext_resource type="Texture2D" uid="uid://cd0irb0kid7my" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_10.png" id="32_xcymb"]
+[ext_resource type="Texture2D" uid="uid://xtqtl4fhiodf" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_11.png" id="33_jaixf"]
+[ext_resource type="Texture2D" uid="uid://cobxoshr8icl2" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_12.png" id="34_lvkvc"]
+[ext_resource type="Texture2D" uid="uid://cc8juawcyt2xe" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_13.png" id="35_vm1k4"]
+[ext_resource type="Texture2D" uid="uid://b8pf5wraiqvkn" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_14.png" id="36_cse1o"]
+[ext_resource type="Texture2D" uid="uid://bf2s48kullcen" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_15.png" id="37_0n7d5"]
+[ext_resource type="Texture2D" uid="uid://dis47xiwt87hi" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_16.png" id="38_vtltg"]
+[ext_resource type="Texture2D" uid="uid://buh8fdekuxebc" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_17.png" id="39_ywyuy"]
+[ext_resource type="Texture2D" uid="uid://c2vroy4s3p1lb" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_18.png" id="40_eucb3"]
+[ext_resource type="Texture2D" uid="uid://bv1pfppxy5a2i" path="res://美术资源/Adventurer/弓箭手/animations/PNG/死亡/death_19.png" id="41_ensv8"]
+[ext_resource type="Texture2D" uid="uid://dp74iwdmf2k2k" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_1.png" id="42_tftqf"]
+[ext_resource type="Texture2D" uid="uid://c7nd4bmrotj2j" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_2.png" id="43_mntq3"]
+[ext_resource type="Texture2D" uid="uid://ch4hla1pp6dci" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_3.png" id="44_0afis"]
+[ext_resource type="Texture2D" uid="uid://bvhhvp1aahery" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_4.png" id="45_mlrna"]
+[ext_resource type="Texture2D" uid="uid://cnggeo164xqpe" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_5.png" id="46_0ub5m"]
+[ext_resource type="Texture2D" uid="uid://d0wswstglwrfy" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_6.png" id="47_jjaqb"]
+[ext_resource type="Texture2D" uid="uid://c856q7m5w6ea1" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_7.png" id="48_qisqn"]
+[ext_resource type="Texture2D" uid="uid://cdb7cncl76y2o" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_8.png" id="49_rjt6x"]
+[ext_resource type="Texture2D" uid="uid://ck2dfcr0rsdc" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_9.png" id="50_fhkni"]
+[ext_resource type="Texture2D" uid="uid://bvlpd0co05w5t" path="res://美术资源/Adventurer/弓箭手/animations/PNG/移动/run_10.png" id="51_v4fn4"]
+[ext_resource type="Texture2D" uid="uid://50qmjunan7s8" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_1.png" id="52_jxiog"]
+[ext_resource type="Texture2D" uid="uid://d0myw48fjbff1" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_2.png" id="53_xydhp"]
+[ext_resource type="Texture2D" uid="uid://bypa6tiakamk2" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_3.png" id="54_ty0un"]
+[ext_resource type="Texture2D" uid="uid://c76ihvxfiajp7" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_4.png" id="55_gc7jy"]
+[ext_resource type="Texture2D" uid="uid://ddnp7lepbx1ks" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_5.png" id="56_hulmg"]
+[ext_resource type="Texture2D" uid="uid://bs11eigqege0m" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_6.png" id="57_fm0lo"]
+[ext_resource type="Texture2D" uid="uid://cv0bwc86n5u3j" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_7.png" id="58_b0ld1"]
+[ext_resource type="Texture2D" uid="uid://bxis0qoeoyivr" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_8.png" id="59_gwcf7"]
+[ext_resource type="Texture2D" uid="uid://otgl48lwf0cv" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_9.png" id="60_2bk5m"]
+[ext_resource type="Texture2D" uid="uid://7nnm84g84yw7" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_10.png" id="61_dlx4g"]
+[ext_resource type="Texture2D" uid="uid://c0rmyt3wx25ep" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_11.png" id="62_3dffm"]
+[ext_resource type="Texture2D" uid="uid://c78nphf4qc4m0" path="res://美术资源/Adventurer/弓箭手/animations/PNG/闲置/idle_12.png" id="63_hgnqe"]
+
+[sub_resource type="GDScript" id="GDScript_vx16j"]
+script/source = "extends CharacterBody2D
+
+
+const SPEED = 300.0
+const JUMP_VELOCITY = -400.0
+
+var direct :Vector2 = Vector2.RIGHT
+var attack:bool = false
+# Get the gravity from the project settings to be synced with RigidBody nodes.
+var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
+
+
+func _ready():
+	$AnimatedSprite2D.play(\"移动\")
+
+func _physics_process(delta):
+	
+	if !is_instance_valid($RightDownRayCast.get_collider()):
+		direct=Vector2.LEFT
+		$AnimatedSprite2D.flip_h=true
+	elif !is_instance_valid($LeftDownRayCast.get_collider()):
+		direct=Vector2.RIGHT
+		$AnimatedSprite2D.flip_h=false
+		
+	if direct == Vector2.RIGHT&&attack==false:
+		if is_instance_valid($RightAttackCheck.get_collider()):
+			attack=true
+			$AnimatedSprite2D.play(\"攻击\")
+		
+	if direct == Vector2.LEFT&&attack==false:
+		if is_instance_valid($LeftAttackCheck.get_collider()):
+			attack=true
+			$AnimatedSprite2D.play(\"攻击\")
+	
+	if attack == true:
+		return
+	
+	self.velocity=direct*SPEED
+	self.velocity.y=gravity
+	move_and_slide()
+
+
+
+
+
+func _on_animated_sprite_2d_frame_changed():
+	if $AnimatedSprite2D.animation==\"攻击\":
+		if $AnimatedSprite2D.frame==8:
+			var sce = preload(\"res://场景/角色类场景/远程弓箭手/弓箭/弓箭.tscn\").instantiate()
+			if direct==Vector2.RIGHT:
+				sce.position = $RightNode2D.global_position
+			else:
+				sce.position = $LeftNode2D.global_position
+			sce.vec_x=direct.x	
+			get_parent().add_child(sce)
+				
+
+func _on_animated_sprite_2d_animation_finished():
+	if $AnimatedSprite2D.animation==\"攻击\":
+		attack=false
+		$AnimatedSprite2D.play(\"移动\")
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5n0r0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_yeeva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yowua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_p71ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cx5mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lj828")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gx4kl")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_wxi0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_hbs4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_43xth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_113c8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_vmj1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_un346")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tjtwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t7ti0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_t7p6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_x4d2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cjvfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_re3wr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lk2ms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ndc0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ne8ek")
+}],
+"loop": false,
+"name": &"攻击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_s76tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0ntp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_i2iol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_it7e6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_22uvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_jp6t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2wren")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_dfu4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_syu7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_xcymb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jaixf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_lvkvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_vm1k4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_cse1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_0n7d5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vtltg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ywyuy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_eucb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ensv8")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_tftqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_mntq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_0afis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_mlrna")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_0ub5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_jjaqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_qisqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_rjt6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_fhkni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_v4fn4")
+}],
+"loop": true,
+"name": &"移动",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("52_jxiog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_xydhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ty0un")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_gc7jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_hulmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_fm0lo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_b0ld1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_gwcf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_2bk5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_dlx4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_3dffm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_hgnqe")
+}],
+"loop": false,
+"name": &"闲置",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_st3r6"]
+size = Vector2(18, 45)
+
+[node name="远程弓箭手" type="CharacterBody2D"]
+script = SubResource("GDScript_vx16j")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_5n0r0")
+animation = &"闲置"
+autoplay = "闲置"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0.5)
+shape = SubResource("RectangleShape2D_st3r6")
+
+[node name="RightDownRayCast" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="LeftDownRayCast" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="LeftNode2D" type="Node2D" parent="."]
+position = Vector2(-33, -10)
+
+[node name="RightNode2D" type="Node2D" parent="."]
+position = Vector2(34, -11)
+
+[node name="RightAttackCheck" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(100, 0)
+
+[node name="LeftAttackCheck" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(-100, 0)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]
